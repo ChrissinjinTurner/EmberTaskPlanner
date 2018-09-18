@@ -1,5 +1,26 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<div class="appTitle">
+    <h1>
+        EmberTaskPlanner
+    </h1>
+</div>
+<div class="wrapper">
+    <div class="navigationBar">
+        <div class="inline">
+            {{#link-to "home" class="menu-home"}}
+                Home     
+            {{/link-to}}
+            {{#link-to "courses" class="menu-courses"}}
+                Courses     
+            {{/link-to}}
+            {{#link-to "profile" class="menu-profile"}}
+                Profile     
+            {{/link-to}}
+            <div class="right">
+                {{#link-to "logout" class="menu-logout"}}
+                    Logout     
+                {{/link-to}}
+            </div>
+        </div>
+    </div>
+</div>
 {{outlet}}

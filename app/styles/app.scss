@@ -1,0 +1,94 @@
+body {
+    // background: url(../../assets/images/login.jpg);
+    // background-color: #bfbfbf;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: white
+}
+  
+// .main.container {
+//     background-color: rgba(255, 255, 255, 0.89);
+//     color: #4981A2;
+//     overflow: hidden;
+//     border-style: solid;
+//     border-color: rgba(73, 129, 162, .87);
+//     border-width: 9px;
+//     height: auto;
+//     max-width: 620px;
+//     position: fixed;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     padding: 15px;
+// }
+  
+.appTitle {
+   color: #4981A2; 
+   text-align: center;
+   font-size: 24px;
+   transform: translate(0px, -5px);
+   position: relative;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width:960px;
+}
+
+.largeWindow {
+    background-color: rgba(255, 255, 255, 0.89);
+    color: #4981A2;
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgba(73, 129, 162, .87);
+    border-width: 9px;
+    height:95%;
+    width: 85%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding: 15px;
+}
+  
+.navigationBar {
+    border-style: solid;
+    border-width: 7px;
+    background-color: rgba(73, 129, 162, .87);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: right;
+    text-align: center;
+    transform: translate(75%, -36px);
+    position: fixed;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.largeWindow li {
+    float: left;
+}
+
+.navigationBar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigationBar a:hover {
+    background-color: #85D8F8;
+}
+
+.right {
+    float:right;
+}
+
+
