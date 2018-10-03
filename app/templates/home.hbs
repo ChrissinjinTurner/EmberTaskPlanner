@@ -1,10 +1,8 @@
 <div class="wrapper">
     <div class="largeWindow">
         <h1>Home</h1>
-        <button {{action "addHomework"}} class="button">Add Homework</button> <br/>
-        <label>Delete/Complete Homework</label>
-        {{input value=model.name class="form-control"}}
-        <button {{action "deleteHomework"}} class="button">Submit</button> <br/>
+        <button {{action "addHomework"}} class="button">Add Homework</button> 
+        <button {{action "editHomework"}} class="button">Edit Homework</button>
     </div>
 </div>
 {{outlet}}
