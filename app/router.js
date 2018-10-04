@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('courses');
   this.route('profile');
   this.route('logout');
+  this.route('login');
 });
 
 export default Router;
