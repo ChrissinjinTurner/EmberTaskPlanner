@@ -54,6 +54,22 @@ body {
     padding: 15px;
 }
   
+.smallWindow {
+    background-color: rgba(255, 255, 255, 0.89);
+    color: #4981A2;
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgba(73, 129, 162, .87);
+    border-width: 9px;
+    height:95%;
+    width: 85%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding: 15px;
+}
+
 .navigationBar {
     border-style: solid;
     border-width: 7px;
